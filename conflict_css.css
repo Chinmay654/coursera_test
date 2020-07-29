@@ -1,0 +1,20 @@
+h1,h3{
+	color: red;
+	text-align: center;
+	display: block;
+}
+li{
+	font-style: bold;
+	text-decoration: none;
+	color: blue;
+	display: block;
+	margin-bottom: 2px;
+}
+p{
+	color:darkblue;
+	background-color:white;
+	cursor: pointer;
+	display: block;
+	border: 2px;
+	border-color: black;
+}
