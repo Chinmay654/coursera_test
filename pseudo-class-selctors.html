@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Pseudo Class Selectors</title>
+	<style>
+		a:link,a:visited{
+			text-decoration: none;
+			background-color: green;
+			display: block;
+			width: 200px;
+			text-align: center;
+			border: 2px solid black;
+			margin-bottom: 4px;
+			color: yellow;
+
+		}
+		a:hover,a:active{
+			background-color: black;
+			color: blue;
+
+		}
+		div:hover{
+			background-color: yellow;
+			display: block;
+			width: 200px;
+			color:red;
+		}
+		img:hover{
+			/*float: right;*/
+			width: 100px;
+			height: 100px;
+			/*color: red;*/
+
+		}
+		div:nth-child(odd){
+			background-color: grey;
+			display: block;
+			width: 200px;
+
+		}
+		div:nth-child(4):hover{
+			background-color: black;
+			cursor: pointer;
+		}
+	</style>
+</head>
+<body>
+ <ul>
+ 	<li><a href="https://www.jetbrains.com/pycharm/" target="_blank">Pycharm</a></li>
+ 	<li><a href="https://code.visualstudio.com/" target="_blank">Visual Studio Code</a></li>
+ 	<li><a href="https://www.sublimetext.com/3" target="_blank">Sublime Text 3</a></li>
+ </ul>
+ <section>
+ 	<div>DIV 1</div>
+ 	<div>DIV 2</div>
+ 	<div>DIV 3</div>
+ 	<div>DIV 4</div>
+ 	<div>DIV 5</div>
+ 	<div>DIV 6</div>
+ 	<div>DIV 7</div>
+ 	<div>DIV 8</div>
+ 	<div>DIV 9</div>
+ 	<div>DIV 10</div>
+ 	<div>DIV 11</div>
+ 	<div>DIV 12</div>
+ 	<div>DIV 13</div>
+ 	<div>DIV 14</div>
+ 	<div>DIV 15</div>
+ 	<img src="F:\lena.png">
+ 	<!-- <dir>DIV 16</dir> -->
+
+ </section>
+</body>
+</html>

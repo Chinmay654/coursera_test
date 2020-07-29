@@ -1,0 +1,14 @@
+h1,h3{
+	color: red;
+	text-align: center;
+
+}
+p{
+	/*background-color: grey;*/
+	font-size: 130%;
+}
+p:hover{
+	color: yellow;
+	cursor: pointer;
+	background-color: black;
+}
