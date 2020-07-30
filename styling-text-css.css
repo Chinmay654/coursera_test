@@ -1,0 +1,7 @@
+p{
+    font-family: "Times New Roman",Times,serif;
+    /* So either of the three will be used depending upon browser configuration */
+    font-size: 120%;
+    text-align: justify;
+
+}
